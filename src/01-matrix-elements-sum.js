@@ -25,7 +25,6 @@ function getMatrixElementsSum(matrix) {
         niddle += matrix[i + 1][j];
       }
       output += matrix[i][j];
-      console.log(output);
     }
   }
   return output - niddle;
